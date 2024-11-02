@@ -1,0 +1,27 @@
+.table-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.table {
+  border-spacing: 0;
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 4px;
+
+  thead tr {
+    background-color: rgb(246, 247, 249);
+    th {
+      font-weight: 500;
+      text-align: left;
+    }
+  }
+
+  th, td {
+    margin: 0;
+    padding: 8px 12px;
+  }
+
+  tr:not(:last-child) td, tr th {
+    border-bottom: 1px solid rgb(229, 231, 235);
+  }
+}
