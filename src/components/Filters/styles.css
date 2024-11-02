@@ -1,0 +1,21 @@
+.filter-input {
+  border-radius: 4px;
+  border: 1px solid #c3c3c3;
+  height: 35px;
+  padding: 4px;
+}
+
+.filter-input:focus {
+  border: 2px solid #b2b2b2;
+  outline: none;
+}
+
+.filter-label {
+  font-size: 14px;
+}
+
+.filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
